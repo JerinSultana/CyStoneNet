@@ -27,8 +27,6 @@ Early and precise identification of renal abnormalities is crucial for effective
 ## Repository Structure
 ```text
 CyStoneNet/
-│
-├── dataset/                  # Dataset description and sample links
 ├── preprocess/               # Pseudo-color enhancement scripts
 ├── models/                   # MobileNetV2 + SE-Attention network architecture
 ├── weights/                  # Pre-trained model weights (.pth)
