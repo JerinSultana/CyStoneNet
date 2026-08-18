@@ -12,7 +12,7 @@ Official implementation of our research paper published in **IEEE Xplore (ICCIT 
 
 ---
 
-## 📌 Abstract
+## Abstract
 Early and precise identification of renal abnormalities is crucial for effective clinical decision-making. This article proposed a lightweight framework for the detection of kidney disease from computed tomography scans. By applying pseudo-color modification to grayscale CT scans, the technique improves textural and spatial information that is sometimes missed in the conventional grayscale format. Moreover, the MobileNetV2 architecture is incorporated with a squeeze-and-excitation (SE) attention mechanism to adaptively highlight the most discriminative channel-wise features, accurately classifying medical images into three distinct diagnostic categories: **Normal**, **Cyst**, and **Stone**.
 
 ---
@@ -51,3 +51,12 @@ CyStoneNet/
 ├── data_augmentation.png                  # Data augmentation samples
 ├── mobilenet_with_pseudocolor_enhancement.py # Complete implementation script
 └── README.md                              # Project documentation
+
+@inproceedings{sultana2025cystonenet,
+  title={CyStoneNet: Pseudo-Color Enhanced SE-Attention MobileNetV2 for Kidney Stone and Cyst Detection},
+  author={Sultana, Jerin and Sen, Joyita and Tasnim, Nowshin and Rahman, Mohammed Mahmudur},
+  booktitle={2025 28th International Conference on Computer and Information Technology (ICCIT)},
+  pages={4723--4728},
+  year={2025},
+  organization={IEEE}
+}
