@@ -9,7 +9,7 @@
 **Official implementation of our research paper published in IEEE Xplore (ICCIT 2025).**
 
 📄 **Read the Published Paper:**  
-👉 https://ieeexplore.ieee.org/document/11491240
+https://ieeexplore.ieee.org/document/11491240
 
 ---
 
@@ -29,13 +29,6 @@ Early and precise identification of renal abnormalities is crucial for effective
 
 By applying pseudo-color modification to grayscale CT scans, the technique improves textural and spatial information that is sometimes missed in the conventional grayscale format. Moreover, the MobileNetV2 architecture is incorporated with a squeeze-and-excitation (SE) attention mechanism to adaptively highlight the most discriminative channel-wise features.
 
-The proposed framework accurately classifies medical images into three distinct diagnostic categories:
-
-- **Normal**
-- **Cyst**
-- **Stone**
-
----
 
 ## Proposed Architecture
 
